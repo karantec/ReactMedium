@@ -1,7 +1,13 @@
-export default function App() {
+import DataFetchingComponent from "./Components/Asynchronous/DataFetcher"
+import Parent from "./Components/Callback/ParentComponent"
+
+
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+    <Parent/></div>
   )
 }
+
+export default App
